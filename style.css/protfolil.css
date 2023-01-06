@@ -47,7 +47,9 @@ nav ul {
     padding: 18px 35px 19px 36px;
     color: #FFFFFF;
     border: 0px;
-
+}
+.button-cv{
+    margin-top: 50px;
 
 }
 
@@ -196,5 +198,80 @@ main {
     font-size: 30px;
     line-height: 48px;
     color: #181818;
-    margin-bottom: 113px;
+
+}
+
+.resume-all {
+    display: flex;
+    margin-top: 113px;
+    gap: 24px;
+}
+
+.resume-title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+    /* border: 1px solid #D1D1D1; */
+    /* align-items: flex-start; */
+}
+
+.ds-sub {
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.ds-sub {
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.discription {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #D1D1D1;
+}
+/* connect section */
+.Connect{
+    display: flex;
+    padding: 130px 200px;
+    background: #FFF8F3;
+    gap: 117px;
+}
+.connect-title{
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 20px;
+} 
+.name{
+    height: 64px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0px;
+}
+.email{
+    height: 64px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border: 0px;
+}
+.message{
+    border: 0px;
+    padding: 18px 30px;
+    width: 100%;
+}
+.Connect a{
+    text-decoration: none;
 }
